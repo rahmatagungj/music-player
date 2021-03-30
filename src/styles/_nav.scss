@@ -1,0 +1,42 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  svg {
+    background-color: transparent;
+  }
+  h1 {
+    color: white;
+    font-weight: 700;
+  }
+  button {
+    background: #fd4d4d;
+    border: none;
+
+    cursor: pointer;
+    border: 2px solid #fd4d4d;
+    border-radius: 0.5em;
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+    &:hover {
+      background: #eb6366;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    button {
+      z-index: 100;
+      margin: 0px 10px;
+    }
+    h1 {
+      margin: 0px 10px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0b0e11;
+  color: #dee3ea;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(32, 32, 32);
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+
+.library-active {
+  margin-left: 30%;
+}
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
