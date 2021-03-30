@@ -5,9 +5,8 @@
   width: 25rem;
   height: 100%;
   overflow-y: scroll;
-  box-shadow: 2px 2px 50px rgb(65, 65, 65);
+  box-shadow: 2px 2px 50px rgb(43, 41, 41);
   background-color: #242c37;
-  border-right: 3px solid #ea504a;
   transform: translateX(-100%);
   transition: all 0.5s ease;
   opacity: 0;
@@ -57,12 +56,13 @@
 }
 
 *::-webkit-scrollbar-track {
-  background-color: transparent;
+  background-color: #ea504a;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: rbga(155, 155, 155, 0.5) transparent;
-  border-radius: 20px;
+  background-color: white;
+  border-radius: 5px;
+  max-height: 10px;
   border: transparent;
 }
 
