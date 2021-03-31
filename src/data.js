@@ -90,15 +90,6 @@ function Pop() {
       id: uuidv4(),
       active: false,
     },
-    {
-      name: "Dancing In My Room",
-      cover: "https://l-hit.com/img_id/317233.jpg",
-      artist: "374aidan",
-      audio: "https://e.top4top.io/m_1916n9g2c1.mp3",
-      color: ["#2E69AB", "#636251"],
-      id: uuidv4(),
-      active: false,
-    },
   ];
 }
 

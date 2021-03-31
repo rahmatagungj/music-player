@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Music Player",
+  "name": "Music Player - Rahmat Agung Julians",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +18,14 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#fd4d4d",
+  "background_color": "#0b0e11",
+  "url": "/app/music-player",
+  "manifestUrl": "/app/music-player/manifest.json",
+  "lang": "id",
+  "screenshots": [],
+  "orientation": "any",
+  "scope": "/",
 }
