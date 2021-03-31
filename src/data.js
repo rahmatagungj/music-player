@@ -12,6 +12,16 @@ function Pop() {
       active: true,
     },
     {
+      name: "Positions",
+      cover:
+        "https://hardrockfm.com/wp-content/uploads/2020/11/b0e89d9596f71d5c7393b9da274661484d-ariana-grande-position.rsquare.w700.jpg",
+      artist: "Ariana Grande",
+      audio: "https://h.top4top.io/m_19165njt41.mp3",
+      color: ["#1C443E", "#5F3B1C"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
       name: "ice Cream (with Selena Gomez)",
       cover:
         "https://i.pinimg.com/originals/db/e3/3f/dbe33fc7641a88349814e695dfbc1a12.png",
@@ -62,12 +72,30 @@ function Pop() {
       active: false,
     },
     {
+      name: "Hurts So Good",
+      cover: "http://www.lyrics.my/images/artist/7394/original.jpg",
+      artist: "Astrid S",
+      audio: "https://i.top4top.io/m_19167y0yc1.mp3",
+      color: ["#B53B2E", "#D2EFEB"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
       name: "Hope Not",
       cover:
         "https://i.pinimg.com/originals/a2/cb/e8/a2cbe8db91de0eeb3bc2095035db1023.jpg",
       artist: "BlackPink",
       audio: "https://i.top4top.io/m_1915lonhi1.mp3",
       color: ["#C3402F", "#C23F20"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Dancing In My Room",
+      cover: "https://l-hit.com/img_id/317233.jpg",
+      artist: "374aidan",
+      audio: "https://e.top4top.io/m_1916n9g2c1.mp3",
+      color: ["#2E69AB", "#636251"],
       id: uuidv4(),
       active: false,
     },
