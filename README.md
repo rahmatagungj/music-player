@@ -11,14 +11,11 @@ npm install
 ```
 
 ## DEPLOY
-> Make sure folder (production-rahmatagungjulians.tech) and this folder is ready
+> Make sure folder (app-rahmatagungjulians.tech) is ready
 
 Tree :
 ```
-  - production-rahmatagungjulians.tech
-    - app
-      - music-player
-  - development-rahmatagungjulians.tech
+  - app-rahmatagungjulians.tech
   - music-player
     - build
 ```
